@@ -65,7 +65,7 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${firaCode.variable} light:bg-white light:text-black dark:bg-black dark:text-white h-screen flex flex-col font-fira-code w-2/5 min-w-96 px-4 m-auto scrollbar-hide overflow-y-scroll`}
+        className={`${firaCode.variable} light:bg-white light:text-black dark:bg-black dark:text-white h-screen flex flex-col font-fira-code m-auto scrollbar-hide overflow-y-scroll`}
       >
         {children}
         <SpeedInsights />
