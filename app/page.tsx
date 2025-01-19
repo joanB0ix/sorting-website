@@ -1,10 +1,10 @@
-import Settings from "./settings/Settings";
+import SettingsTab from "./settings/SettingsTab";
 import Visualizer from "./visualizer/Visualizer";
 
 export default function Home() {
   return (
     <main className="flex h-full w-full flex-row">
-      <Settings />
+      <SettingsTab />
       <Visualizer />
     </main>
   );
