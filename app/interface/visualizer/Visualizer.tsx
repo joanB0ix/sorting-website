@@ -34,7 +34,7 @@ export default function Visualizer({ snapshot, idx1, idx2 }: VisualizerProps) {
   const maxHeight = Math.max(...snapshot);
 
   return (
-    <div className="w-full h-full overflow-auto flex flex-row justify-center items-end">
+    <div className="w-full h-full flex flex-row justify-center items-end">
       {Array.from(snapshot).map((value, index) => {
         const color = getBarColor(index, idx1, idx2, value, maxHeight);
         return <Bar key={index} height={value} color={color} />;

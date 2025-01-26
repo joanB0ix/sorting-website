@@ -5,7 +5,7 @@ interface StatsProps {
 
 export default function Stats({ currentStep, totalSteps }: StatsProps) {
   return (
-    <div>
+    <div className="hidden md:block">
       <h2 className="mb-4 text-xl text-center font-semibold">Stats</h2>
       <p>Current step: {currentStep}</p>
       <p>Total steps: {totalSteps}</p>

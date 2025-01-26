@@ -88,7 +88,7 @@ export default function MainInterface() {
   }, [clearSortInterval]);
 
   return (
-    <main className="flex h-screen w-full flex-row overflow-hidden">
+    <main className="flex h-full w-full flex-col-reverse md:flex-row overflow-hidden">
       <Sidebar
         isRunning={isRunning}
         selectedAlgorithm={selectedAlgorithm}

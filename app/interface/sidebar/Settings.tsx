@@ -28,7 +28,9 @@ export default function Settings({
 }: SettingsProps) {
   return (
     <div>
-      <h2 className="mb-4 text-xl text-center font-semibold">Controls</h2>
+      <h2 className="mb-4 hidden md:block text-xl text-center font-semibold">
+        Controls
+      </h2>
       <select
         id="algorithmSelector"
         className="mb-4 p-2 border border-gray-300 w-full"
