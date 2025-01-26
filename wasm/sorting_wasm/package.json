@@ -1,0 +1,15 @@
+{
+  "name": "sorting_wasm",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "sorting_wasm_bg.wasm",
+    "sorting_wasm.js",
+    "sorting_wasm.d.ts"
+  ],
+  "main": "sorting_wasm.js",
+  "types": "sorting_wasm.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
