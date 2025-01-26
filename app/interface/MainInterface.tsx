@@ -13,7 +13,7 @@ export default function MainInterface() {
   const [isRunning, setIsRunning] = useState(false);
 
   const [selectedAlgorithm, setSelectedAlgorithm] = useState<Algorithm>(
-    Algorithm.QuickSort
+    Algorithm.BubbleSort
   );
 
   const [steps, setSteps] = useState<Step[]>([]);

@@ -33,6 +33,7 @@ export default function Settings({
         id="algorithmSelector"
         className="mb-4 p-2 border border-gray-300 w-full"
         value={selectedAlgorithm}
+        disabled={isRunning}
         onChange={(e) =>
           onAlgorithmChange(parseInt(e.target.value, 10) as Algorithm)
         }

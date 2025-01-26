@@ -19,8 +19,7 @@ function getBarColor(
   value: number,
   maxHeight: number
 ): string {
-  if (index === idx1) return "red";
-  if (index === idx2) return "green";
+  if (index === idx1 || index == idx2) return "red";
 
   const ratio = value / maxHeight;
 
