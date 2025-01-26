@@ -14,7 +14,7 @@ interface SidebarProps {
 
 export default function Sidebar(props: SidebarProps) {
   return (
-    <div className="flex flex-col items-center border-stone-300 w-full h-60 md:w-96 border-r-0 md:border-r md:h-full p-5 gap-8">
+    <div className="flex flex-col items-center border-stone-300 w-full h-60 border-r-0 md:border-r md:h-full md:w-[250px] p-5 gap-8">
       <h1 className="mb-4 hidden md:block text-xl text-center font-bold">
         Sorting Visualizer
       </h1>

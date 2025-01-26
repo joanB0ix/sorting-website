@@ -27,7 +27,7 @@ export default function Settings({
   onGenerateNewArray,
 }: SettingsProps) {
   return (
-    <div>
+    <div className="w-full">
       <h2 className="mb-4 hidden md:block text-xl text-center font-semibold">
         Controls
       </h2>

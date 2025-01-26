@@ -6,7 +6,7 @@ import Visualizer from "./visualizer/Visualizer";
 
 export default function MainInterface() {
   const [array, setArray] = useState<Int32Array>(
-    generateRandomInt32Array(200, 10, 1000)
+    generateRandomInt32Array(150, 50, 800)
   );
   const [idx1, setIdx1] = useState(-1);
   const [idx2, setIdx2] = useState(-1);
@@ -27,7 +27,7 @@ export default function MainInterface() {
 
   const onGenerateNewArray = useCallback(() => {
     if (!isRunning) {
-      const newArray = generateRandomInt32Array(200, 10, 1000);
+      const newArray = generateRandomInt32Array(150, 50, 800);
       setArray(newArray);
       setIdx1(-1);
       setIdx2(-1);

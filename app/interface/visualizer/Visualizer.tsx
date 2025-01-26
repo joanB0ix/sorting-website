@@ -1,4 +1,3 @@
-// Visualizer.tsx
 "use client";
 import Bar from "./Bar";
 
@@ -8,10 +7,6 @@ export interface VisualizerProps {
   idx2: number;
 }
 
-/**
- * Dynamically compute a green shade based on the bar's relative height.
- * A taller bar => darker green; shorter bar => lighter green.
- */
 function getBarColor(
   index: number,
   idx1: number,
